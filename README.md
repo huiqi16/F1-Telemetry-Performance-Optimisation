@@ -160,14 +160,16 @@ These findings provide insight into driving behaviours that maximise corner exit
 ---
 
 ## Repository Structure
-model_code/
-├── Linear_and_ElasticNet_code.ipynb
-├── KNNR_and_SVR_code.ipynb
-├── randomforestmodel.ipynb
-├── LightGBM.ipynb
-├── XGBoost Minimiser.ipynb
+    model_code/
+    │
+    ├── Linear_and_ElasticNet_code.ipynb
+    ├── KNNR_and_SVR_code.ipynb
+    ├── randomforestmodel.ipynb
+    ├── LightGBM.ipynb
+    └── XGBoost Minimiser.ipynb
 
-DATA3001 - F1 Modelling Report (Group 1).pdf
+    DATA3001 - F1 Modelling Report (Group 1).pdf
+
 
 
 ---
