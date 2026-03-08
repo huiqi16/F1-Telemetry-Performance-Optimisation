@@ -6,7 +6,7 @@ def read_data(path=None):
     if path:
         return pd.read_csv(f"{path}")
     else:
-        return pd.read_csv("data/UNSW F12024.csv")
+        return pd.read_csv("datasets/UNSW F12024.csv")
 
 
 def read_process_left(path=None):
@@ -14,7 +14,7 @@ def read_process_left(path=None):
     if path:
         left = pd.read_csv(f"{path}")
     else:
-        left = pd.read_csv("data/f1sim-ref-left.csv")
+        left = pd.read_csv("datasets/f1sim-ref-left.csv")
 
     # Restrict to the same bounds as track_slice
     left = left[
@@ -32,7 +32,7 @@ def read_process_right(path=None):
     if path:
         right = pd.read_csv(f"{path}")
     else:
-        right = pd.read_csv("data/f1sim-ref-right.csv")
+        right = pd.read_csv("datasets/f1sim-ref-right.csv")
 
     # Restrict to the same bounds as track_slice
     right = right[
@@ -50,7 +50,7 @@ def read_process_line(path=None):
     if path:
         line = pd.read_csv(f"{path}")
     else:
-        line = pd.read_csv("data/f1sim-ref-line.csv")
+        line = pd.read_csv("datasets/f1sim-ref-line.csv")
 
     # Restrict to the same bounds as track_slice
     line = line[
