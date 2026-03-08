@@ -98,7 +98,6 @@ This will generate all processed datasets inside the `output/` directory.
 
 # 2️⃣ README for `modelling/`
 
-```markdown
 # F1 Racing Performance Modelling
 
 This repository contains the modelling component of a Formula 1 data science project analysing telemetry data from a racing simulator.
