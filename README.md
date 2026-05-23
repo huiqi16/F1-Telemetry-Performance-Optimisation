@@ -76,7 +76,7 @@ Verified against real laps using KNN — the recommendation is physically achiev
 ```
 F1-Racing-Simulator/
 │
-├── data-pipeline/          # Phase 1 — raw telemetry → structured dataset
+├── data-product/          # Phase 1 — raw telemetry → structured dataset
 │   ├── pipeline/
 │   │   ├── cleaning.py
 │   │   ├── loading.py
@@ -96,6 +96,7 @@ F1-Racing-Simulator/
 │   ├── fixed_final_data_product.csv
 │   └── README.md
 │
+├── requirements.txt
 └── README.md               ← you are here
 ```
 
