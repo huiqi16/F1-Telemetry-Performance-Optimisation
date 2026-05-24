@@ -1,4 +1,4 @@
-# F1 Chicane Performance Optimisation
+# F1 Telemetry Performance Optimisation
 
 > **Can machine learning on simulator data prescribe optimal driver inputs?**  
 > Using 1,032 laps of racing telemetry to identify the trigger points that minimise chicane time at Albert Park Turns 1–2.
